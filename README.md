@@ -36,19 +36,25 @@ At the bottom of the screen, ade is shown using Google Admob.
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/b4f3442d-701c-4633-896c-ba93663ea159" width="300px">
 
 ### Menu section
+Player is provided quick menu section to instant logout and quit game.  
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/c20f2fdd-1ae2-4711-ada0-8bd1ca814205" width="300px">
 
 ### Inside Game
+In vsComputer, player get to choose his symbol.  
+After a game, a Result window is shown to tell player about the result of the game.  
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/db6221cd-5a31-4641-ba53-f46d8dbd2e24" width="300px">
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/6700a396-87f0-4037-9564-d02719cfc83a" width="300px">
 
-
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/6aaf4d88-66cc-45b6-ba9a-6d160679e2cc" width="300px">
 
 ### Multiplayer
+Player needs to be connected to network to access this option.  
+After connecting to server, he can either create or enter a room with room id and password. Password is optional.  
+When two player joins a game, the game starts.  
+After each game, player can invite for Rematch and other player has to accept the request to play again in the same game.  
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/1032b0c9-7ee1-45c2-95c2-686897284051" width="300px">
 
