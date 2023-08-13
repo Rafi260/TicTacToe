@@ -6,7 +6,7 @@ using TMPro;
 public class SendData : MonoBehaviour
 {
 
-    //
+    //send when i enter room successfully
     public void SendEntered()
     {
         PhotonView photonView = GetComponent<PhotonView>();

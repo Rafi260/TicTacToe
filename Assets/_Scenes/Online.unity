@@ -4324,10 +4324,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1175634179}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1219217829}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Rematch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5796,6 +5796,7 @@ MonoBehaviour:
   - {fileID: 1859741194}
   - {fileID: 1734742585}
   - {fileID: 1175634179}
+  opponentEntered: 0
 --- !u!4 &1219217828
 Transform:
   m_ObjectHideFlags: 0
@@ -5867,8 +5868,6 @@ MonoBehaviour:
   - {fileID: 40949961}
   - {fileID: 1738281468}
   - {fileID: 1253146106}
-  clip: {fileID: 0}
-  source: {fileID: 0}
 --- !u!114 &1219217831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5900,7 +5899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00e6a62b2aea65488adaf641c9800bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vsOnline: {fileID: 1219217827}
 --- !u!1 &1235370840
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,10 +6631,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1859741194}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1219217829}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Rematch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7078,7 +7076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00e6a62b2aea65488adaf641c9800bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vsOnline: {fileID: 0}
 --- !u!1 &1323298213
 GameObject:
   m_ObjectHideFlags: 0
@@ -7822,10 +7819,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1734742585}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1219217829}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Rematch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

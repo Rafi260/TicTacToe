@@ -20,10 +20,6 @@ public class _UpdatePlayerData : MonoBehaviour
     [Header("Ui")]
     public GameObject[] grids = new GameObject[9];
 
-    [Header("Sound")]
-    public AudioClip clip;
-    public AudioSource source;
-
 
     //x,y is coordinate of opponents move.
     public void PlaceSymbol(int x, int y, int player1)
@@ -47,7 +43,7 @@ public class _UpdatePlayerData : MonoBehaviour
             vsOnline.AddToXOs(g);
         }
 
-        source.PlayOneShot(clip);
+ 
         grids[gridId].SetActive(false);
     }
 

@@ -60,7 +60,7 @@ public class AdmobAdsScript : MonoBehaviour
         var adRequest = new AdRequest();
         adRequest.Keywords.Add("unity-admob-sample");
 
-        print("Loading banner Ad !!");
+        //print("Loading banner Ad !!");
         bannerView.LoadAd(adRequest);//show the banner on the screen
     }
     void CreateBannerView()
@@ -74,7 +74,7 @@ public class AdmobAdsScript : MonoBehaviour
     }
     void ListenToBannerEvents()
     {
-        bannerView.OnBannerAdLoaded += () =>
+        /*bannerView.OnBannerAdLoaded += () =>
         {
             Debug.Log("Banner view loaded an ad with response : "
                 + bannerView.GetResponseInfo());
@@ -111,7 +111,7 @@ public class AdmobAdsScript : MonoBehaviour
         bannerView.OnAdFullScreenContentClosed += () =>
         {
             Debug.Log("Banner view full screen content closed.");
-        };
+        };*/
     }
     public void DestroyBannerAd()
     {

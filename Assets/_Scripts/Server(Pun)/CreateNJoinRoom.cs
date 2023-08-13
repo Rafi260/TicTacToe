@@ -65,8 +65,6 @@ public class CreateNJoinRoom : MonoBehaviourPunCallbacks
             {
 
             }
-            
-           
         }
         else
         {

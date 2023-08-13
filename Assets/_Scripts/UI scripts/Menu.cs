@@ -168,7 +168,7 @@ public class Menu : MonoBehaviour
         {
             // Leave the current room and return to the lobby or disconnect from the server
             PhotonNetwork.LeaveRoom();
-            vsOnline.CheckOnYouLeaveRoom();
+            //vsOnline.CheckOnYouLeaveRoom();
         }
         else
         {

@@ -29,7 +29,7 @@ public class _VsOnline : MonoBehaviourPunCallbacks
     public List<GameObject> XOs;
     public GameObject[] rematchBtnBefore, rematchBtnAfter;
 
-    bool opponentEntered = false;
+    [HideInInspector] public bool opponentEntered = false;
     bool playerTwoRematch = false, playerOneRematch = false;
     bool youWon = false, youLost = false, youDraw = false;
     bool opponentLeftRoom = false;
@@ -49,12 +49,14 @@ public class _VsOnline : MonoBehaviourPunCallbacks
     private void Update()
     {
         //when two player has entered room, then anyone can give their move.
-        if (!gameCanBeStart && opponentEntered)
+        if (!gameCanBeStart )
         {
             if (PhotonNetwork.CurrentRoom.PlayerCount > 1)
             {
+                canGiveMove = true;
                 gameCanBeStart = true;
                 sendData.SendUID();
+                print("Sent");
             }
         }
     }
@@ -70,13 +72,14 @@ public class _VsOnline : MonoBehaviourPunCallbacks
     public void PlayerTwoEntered()
     {
         opponentEntered = true;
-        canGiveMove = true;
+        
     }
 
 
     //Populate grid in _gameLogic
     public void _PlaceMove(int x, int y)
     {
+        
         if (bRun)
         {
             myTurn = false;
@@ -85,6 +88,7 @@ public class _VsOnline : MonoBehaviourPunCallbacks
                 x = x,
                 y = y
             };
+            sendData.SendUID();
             sendData.SendDataX(sendDataUnit);
             _gameLogic.PlaceMove(x, y, player1);
 
@@ -119,6 +123,13 @@ public class _VsOnline : MonoBehaviourPunCallbacks
     public void PlayerTwoMove(SendDataUnit unit)
     {
         myTurn = true;
+
+        print(myTurn);
+        print(bRun);
+        print(canGiveMove);
+        print(gameCanBeStart);
+        print(updatePlayerData);
+
         _gameLogic.PlaceMove(unit.x, unit.y, 1 - player1);
         updatePlayerData.PlaceSymbol(unit.x, unit.y, player1);
 
@@ -149,6 +160,8 @@ public class _VsOnline : MonoBehaviourPunCallbacks
     //Called if opponents wants rematch
     public void PlayerTwoRematch()
     {
+        print("Player2 rematch");
+
         playerTwoRematch = true;
         if (!playerOneRematch)
         {
@@ -166,6 +179,7 @@ public class _VsOnline : MonoBehaviourPunCallbacks
     //Called when you want rematch
     public void PlayerOneRematch()
     {
+        print("Player1 rematch");
         playerOneRematch = true;
         sendData.SendRematch();
 
@@ -238,6 +252,17 @@ public class _VsOnline : MonoBehaviourPunCallbacks
         }
     }
 
+    /*public override void OnPlayerLeftRoom(Photon.Realtime.Player otherPlayer)
+    {
+        if (opponentEntered)
+        {
+            // handle actions when a player leaves the room
+            Debug.Log("Player " + otherPlayer.NickName + " has left the room.");
+            CheckOnOpponentLeaveRoom();
+        }
+
+    }
+
     //checkes win lose if opponent leave room
     public void CheckOnOpponentLeaveRoom()
     {
@@ -245,6 +270,7 @@ public class _VsOnline : MonoBehaviourPunCallbacks
         {
             if(opponentEntered)
             {
+                print("CheckOnOpponentLeaveRoom");
                 opponentLeftRoom = true;
                 youWon = true;
                 loadUserInfo.Won();                     // update your data base
@@ -264,5 +290,5 @@ public class _VsOnline : MonoBehaviourPunCallbacks
             loadUserInfo.Lost();
         }
 
-    }
+    }*/
 }
