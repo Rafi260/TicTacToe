@@ -19,7 +19,7 @@ Admob SDK Integration for Ads
 
 ### Splash screen
 
-<img src="https://github.com/Rafi260/TicTacToe/assets/85826615/32f86f68-cb1f-4193-90bc-ccc35f62b461" width="400px">
+<img src="https://github.com/Rafi260/TicTacToe/assets/85826615/32f86f68-cb1f-4193-90bc-ccc35f62b461" width="300px">
 
 
 ### Login Registration page
