@@ -52,14 +52,15 @@ After a game, a Result window is shown to tell player about the result of the ga
 
 ### Multiplayer
 Player needs to be connected to network to access this option.  
-After connecting to server, he can either create or enter a room with room id and password. Password is optional.  
-When two player joins a game, the game starts.  
-After each game, player can invite for Rematch and other player has to accept the request to play again in the same game.  
-
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/1032b0c9-7ee1-45c2-95c2-686897284051" width="300px">
 
+After connecting to server, he can either create or enter a room with room id and password. Password is optional.  
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/b52a8cba-11d8-45f7-9d88-e3b534381e29" width="300px">
+
+When two player joins a game, the game starts.  
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/1283e6e3-ebfa-41a2-b13c-996d9f130c80" width="300px">
 
+After each game, player can invite for Rematch and other player has to accept the request to play again in the same game.  
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/f83514fc-13b3-4422-aab3-b1ef7ce8b4c4" width="300px">
+
