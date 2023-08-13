@@ -64,3 +64,6 @@ When two player joins a game, the game starts.
 After each game, player can invite for Rematch and other player has to accept the request to play again in the same game.  
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/f83514fc-13b3-4422-aab3-b1ef7ce8b4c4" width="300px">
 
+## Game optimization:
+
+* I reused scripts
