@@ -1,19 +1,19 @@
 # TicTacToe
 
 ## Project Details:
-Project Name: Tic Tac Toe Game
-Game Engine: Unity 3D
-Platform: Android
-SDKs: Photon, Firebase, Admob
+Project Name: Tic Tac Toe Game  
+Game Engine: Unity 3D  
+Platform: Android  
+SDKs: Photon, Firebase, Admob  
 
 ## Project Features:
-Single Player Mode (Player vs Computer)
-Offline Mode (Local Player vs Player)
-Multiplayer Mode (Player vs Player)
-Password Protected Match System
-Player Authentication via Firebase
-Player Statistics Tracking (Games Played, Games Won, Games Lost)
-Admob SDK Integration for Ads
+Single Player Mode (Player vs Computer)  
+Offline Mode (Local Player vs Player)  
+Multiplayer Mode (Player vs Player)  
+Password Protected Match System  
+Player Authentication via Firebase  
+Player Statistics Tracking (Games Played, Games Won, Games Lost)  
+Admob SDK Integration for Ads  
 
 ## Below are some screenshots of the app:
 
