@@ -23,10 +23,14 @@ Admob SDK Integration for Ads
 
 
 ### Login Registration page
+Player needs to be online to login or register.
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/9bd78694-040c-4d2d-8ed9-a47260cdd3aa" width="400px">
 
 ### Home / Player Profile page
+If player has loged in once, he can come to home in offline afterward.  
+Here player can see all the game states. After each multiplayer game, the state gets updated automatically.  
+Player can play there different mode.  
 
 <img src="https://github.com/Rafi260/TicTacToe/assets/85826615/b4f3442d-701c-4633-896c-ba93663ea159" width="300px">
 
