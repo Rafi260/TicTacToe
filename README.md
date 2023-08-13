@@ -66,8 +66,16 @@ After each game, player can invite for Rematch and other player has to accept th
 
 ## Game optimization:
 
-* I reused scripts (One main GameLogic class)
+* I reused resources (One main GameLogic class for all mode)
 * Used inheritence where ever possible.
 * In whole game, Update() function has been used one time.
 * To animate UI, used script.
-* used low size, high quality images.
+* Used low size, high quality images.
+
+## UX
+
+* UI is user friendly.
+* Easy to understand what user should do next.
+* User can undo any operation anytime.
+* Clean, uncluttered user interface.
+* All type of error masseges are shown to give user proper feed back.
