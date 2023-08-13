@@ -25,7 +25,6 @@ Below are some screenshots of the app:
 
 ![Screenshot_2023-08-14-02-09-57-88_7b5c6256c4ef0b7e4c126f07210bde9e](https://github.com/Rafi260/TicTacToe/assets/85826615/6700a396-87f0-4037-9564-d02719cfc83a)
 
-![Screenshot_2023-08-14-02-13-22-46_7b5c6256c4ef0b7e4c126f07210bde9e](https://github.com/Rafi260/TicTacToe/assets/85826615/3c523031-d2f3-45b9-9585-08a54ea69c95)
 
 ![Screenshot_2023-08-14-02-10-17-07_7b5c6256c4ef0b7e4c126f07210bde9e](https://github.com/Rafi260/TicTacToe/assets/85826615/6aaf4d88-66cc-45b6-ba9a-6d160679e2cc)
 
@@ -36,3 +35,5 @@ Below are some screenshots of the app:
 ![Screenshot_2023-08-14-02-23-50-85_7b5c6256c4ef0b7e4c126f07210bde9e](https://github.com/Rafi260/TicTacToe/assets/85826615/b52a8cba-11d8-45f7-9d88-e3b534381e29)
 
 ![Screenshot_2023-08-14-02-13-22-46_7b5c6256c4ef0b7e4c126f07210bde9e](https://github.com/Rafi260/TicTacToe/assets/85826615/1283e6e3-ebfa-41a2-b13c-996d9f130c80)
+
+![Screenshot_2023-08-14-02-13-38-53_7b5c6256c4ef0b7e4c126f07210bde9e](https://github.com/Rafi260/TicTacToe/assets/85826615/f83514fc-13b3-4422-aab3-b1ef7ce8b4c4)
